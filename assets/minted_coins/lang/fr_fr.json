@@ -1,0 +1,8 @@
+{
+  "item.minted_coins.gold_coin": "Pièce d'or",
+  "item.minted_coins.copper_coin": "Pièce de cuivre",
+  "item.minted_coins.iron_coin": "Pièce de fer",
+  "item.minted_coins.diamond_coin": "Pièce de diamant",
+  "lore.minted_coins.struck_by": "Frappée par %s",
+  "name.minted_coins.default": "Atelier monétaire n°%s"
+}

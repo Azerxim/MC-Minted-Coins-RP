@@ -1,0 +1,8 @@
+{
+  "item.minted_coins.gold_coin": "Gold Coin",
+  "item.minted_coins.copper_coin": "Copper Coin",
+  "item.minted_coins.iron_coin": "Iron Coin",
+  "item.minted_coins.diamond_coin": "Diamond Coin",
+  "lore.minted_coins.struck_by": "Struck by %s",
+  "name.minted_coins.default": "Mint #%s"
+}
