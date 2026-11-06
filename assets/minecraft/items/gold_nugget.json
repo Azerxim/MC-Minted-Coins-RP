@@ -7,8 +7,21 @@
       {
         "when": "minted_coins:gold_coin",
         "model": {
-          "type": "minecraft:model",
-          "model": "minted_coins:item/gold_coin"
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": "gui",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minted_coins:item/gold_coin"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minted_coins:item/gold_coin_3d"
+          }
         }
       }
     ],

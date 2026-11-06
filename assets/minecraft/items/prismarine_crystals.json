@@ -7,8 +7,21 @@
       {
         "when": "minted_coins:diamond_coin",
         "model": {
-          "type": "minecraft:model",
-          "model": "minted_coins:item/diamond_coin"
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": "gui",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minted_coins:item/diamond_coin"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minted_coins:item/diamond_coin_3d"
+          }
         }
       }
     ],
