@@ -24,10 +24,14 @@ Coins are recognised by their `custom_model_data` string (`minted_coins:gold_coi
 | **Minecraft versions** | 26.3 |
 | **Type** | Resource Pack |
 | **Requires** | [Minted Coins](https://modrinth.com/datapack/minted-coins) data pack on the world or server |
-| **License** | MIT |
+| **License** | All Rights Reserved ([details](LICENSE)) |
 
 This pack replaces the item definitions of `gold_nugget`, `copper_nugget`, `iron_nugget`, `prismarine_crystals` and `firework_star`. Another resource pack that also changes these items will override it, or be overridden, depending on load order.
 
 ## 📥 Installation
 
 Drop the downloaded zip into `.minecraft/resourcepacks/`, then enable it in **Options → Resource Packs**.
+
+## 📄 License
+
+Minted Coins Resources © 2026 Azerxim. All rights reserved: you may play with it, use it on servers, add it to modpacks that download it from its official page and show it in videos, but not re-upload it or share a modified version. See [LICENSE](LICENSE) for the details.
