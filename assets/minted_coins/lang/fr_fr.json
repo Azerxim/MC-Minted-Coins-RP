@@ -49,5 +49,5 @@
   "chat.minted_coins.remove_ask": "Supprimer l'atelier %s ? Les pièces qu'il a déjà frappées restent valables.",
   "chat.minted_coins.not_loaded": "Cet atelier n'est pas chargé pour l'instant : %s pour vous y rendre et le supprimer à nouveau, ou %s s'il n'existe plus.",
   "chat.minted_coins.list.title": "Minted Coins · ateliers",
-  "chat.minted_coins.list.empty": "Aucun atelier pour l'instant : /trigger minted_coins pour en créer un."
+  "chat.minted_coins.list.empty": "Aucun atelier pour l'instant : /function minted_coins:menu pour en créer un."
 }
