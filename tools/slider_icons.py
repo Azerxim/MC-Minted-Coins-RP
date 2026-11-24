@@ -193,7 +193,8 @@ def main():
             key = f"dialog.minted_coins.create.{coin}"
             if key not in lang and key in english:
                 print(f"{path.stem}: no {key}, falls back to en_us")
-        path.write_text(dump(result), encoding="utf-8")
+        path.write_text(dump(result), encoding="utf-8", newline="
+")
         print(f"{path.stem}: icons written ({label_format!r})")
 
 

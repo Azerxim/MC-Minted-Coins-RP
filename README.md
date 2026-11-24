@@ -8,9 +8,10 @@ Companion resource pack for the [Minted Coins](https://modrinth.com/datapack/min
 - In hand, on the ground and in item frames, coins are **3D models**: a raised rim, a milled edge and an embossed crown on both faces. The inventory keeps the flat icon.
 - **Small coins** (small change) get their own holed coin, in 3D and in the inventory.
 - **Purse**: a leather pouch, empty or full, instead of the bundle it is based on.
+- **Counter** of the mint: a wooden counter with a coin press, scales and stacks of coins, instead of the barrel it is based on.
 - **Coin piles**: the model grows with the stack, for coins and small coins: one coin up to 8, a small pile from 9, a large pile from 32 and a heap from 60, in 3D and in the inventory.
 - Plain nuggets, prismarine crystals and firework stars keep their vanilla look.
-- English and French translations for the coin names, the admin menus and every chat message of the data pack.
+- English, French, Spanish and German translations for the coin names, the menus and every chat message of the data pack.
 - Coin icons in the menu titles and to the left of each slider of the *New mint* menu, and a line between the mint name and the coins.
 
 ### Adding a language
