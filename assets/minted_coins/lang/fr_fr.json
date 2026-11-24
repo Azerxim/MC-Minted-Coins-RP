@@ -41,6 +41,7 @@
   "dialog.minted_coins.help.rates": "9 pièces redonnent toujours 1 lingot, et l'atelier rachète 9 de ses propres pièces de diamant contre 1 diamant : en dessous de 9 pièces, l'atelier garde la différence.",
   "dialog.minted_coins.help.small": "Avec la petite monnaie, l'atelier change aussi chaque pièce en 9 petites pièces, et 9 de ses propres petites pièces en 1 pièce.",
   "dialog.minted_coins.help.edit": "Modifier… sur la page d'un atelier change ses noms, ses taux et sa petite monnaie : l'atelier est remplacé par un nouveau au même endroit, et les pièces qu'il a déjà frappées restent les siennes. Les pièces frappées avant un renommage gardent leur ancien nom : l'atelier les échange une pour une contre des pièces au nouveau nom.",
+  "dialog.minted_coins.help.purse": "Chaque atelier vend son porte-monnaie contre 1 cuir et 1 ficelle. Glissez-y ses pièces comme dans un bundle, sans limite : le reste vous est rendu. Faites un clic droit avec pour voir son contenu et retirer des pièces.",
   "dialog.minted_coins.help.access": "Les opérateurs ouvrent ce menu avec /function minted_coins:mint/menu, qui leur permet ensuite de l'ouvrir avec /trigger minted_coins.mint.menu. Créer ou modifier un atelier lance une commande d'opérateur : Minecraft demande de la confirmer.",
   "dialog.minted_coins.list.title": "Ateliers",
   "dialog.minted_coins.list.body": "Choisissez un atelier pour voir sa position et ses taux, vous y téléporter, le modifier ou le supprimer.",
@@ -71,5 +72,18 @@
   "dialog.minted_coins.edit.confirm.tooltip": "L'atelier est remplacé par un nouveau au même endroit. Une pièce mise à 0 n'est plus frappée, changée ni rachetée par cet atelier.",
   "chat.minted_coins.edited": "✔ Atelier modifié : %s",
   "chat.minted_coins.not_operator": "Seuls les opérateurs peuvent ouvrir le menu Minted Coins. Un opérateur l'ouvre une première fois avec /function minted_coins:mint/menu ; ensuite, /trigger minted_coins.mint.menu suffit.",
-  "chat.minted_coins.revoked": "Votre accès au menu Minted Coins a été retiré."
+  "chat.minted_coins.revoked": "Votre accès au menu Minted Coins a été retiré.",
+  "item.minted_coins.purse": "Porte-monnaie",
+  "lore.minted_coins.purse_of": "Pièces de %s",
+  "lore.minted_coins.purse_count": "%s × %s",
+  "dialog.minted_coins.purse.title": "Porte-monnaie · %s",
+  "dialog.minted_coins.purse.empty": "Ce porte-monnaie est vide. Glissez-y des pièces de %s comme dans un bundle : elles rejoignent son contenu, sans limite.",
+  "dialog.minted_coins.purse.coin": "Pièce",
+  "dialog.minted_coins.purse.amount": "Quantité",
+  "dialog.minted_coins.purse.withdraw": "Retirer",
+  "dialog.minted_coins.purse.withdraw_all": "Tout retirer",
+  "dialog.minted_coins.purse.withdraw_all.tooltip": "Toutes les pièces de la sorte choisie.",
+  "chat.minted_coins.purse.deposited": "%s pièces rangées",
+  "chat.minted_coins.purse.not_held": "Tenez le porte-monnaie en main pour retirer des pièces.",
+  "chat.minted_coins.purse.rejected": "Seules les pièces de %s vont dans ce porte-monnaie"
 }

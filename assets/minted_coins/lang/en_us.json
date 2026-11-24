@@ -41,6 +41,7 @@
   "dialog.minted_coins.help.rates": "9 coins always melt back into 1 ingot, and the mint buys back 9 of its own diamond coins for 1 diamond: below 9 coins, the mint keeps the difference.",
   "dialog.minted_coins.help.small": "With small change, the mint also changes each coin into 9 small coins, and 9 of its own small coins back into 1 coin.",
   "dialog.minted_coins.help.edit": "Edit… on the page of a mint changes its names, rates and small change: the mint is replaced by a new one at the same place, and the coins it already struck stay its own. Coins struck before a renaming keep their old name: the mint exchanges them one for one for coins under the new name.",
+  "dialog.minted_coins.help.purse": "Each mint sells its purse for 1 leather and 1 string. Put its coins in it like in a bundle, without limit: anything else is handed back. Right-click with it to see what it holds and withdraw coins.",
   "dialog.minted_coins.help.access": "Operators open this menu with /function minted_coins:mint/menu, which also lets them open it later with /trigger minted_coins.mint.menu. Creating or editing a mint runs an operator command: Minecraft asks you to confirm it.",
   "dialog.minted_coins.list.title": "Mints",
   "dialog.minted_coins.list.body": "Choose a mint to see its position and rates, teleport to it, edit it or remove it.",
@@ -71,5 +72,18 @@
   "dialog.minted_coins.edit.confirm.tooltip": "The mint is replaced by a new one at the same place. A coin set to 0 is no longer struck, changed or bought back by this mint.",
   "chat.minted_coins.edited": "✔ Mint updated: %s",
   "chat.minted_coins.not_operator": "Only operators can open the Minted Coins menu. An operator opens it once with /function minted_coins:mint/menu; after that, /trigger minted_coins.mint.menu is enough.",
-  "chat.minted_coins.revoked": "Your access to the Minted Coins menu has been removed."
+  "chat.minted_coins.revoked": "Your access to the Minted Coins menu has been removed.",
+  "item.minted_coins.purse": "Purse",
+  "lore.minted_coins.purse_of": "Coins of %s",
+  "lore.minted_coins.purse_count": "%s × %s",
+  "dialog.minted_coins.purse.title": "Purse · %s",
+  "dialog.minted_coins.purse.empty": "This purse is empty. Put coins of %s in it like in a bundle: they join its contents, without limit.",
+  "dialog.minted_coins.purse.coin": "Coin",
+  "dialog.minted_coins.purse.amount": "Amount",
+  "dialog.minted_coins.purse.withdraw": "Withdraw",
+  "dialog.minted_coins.purse.withdraw_all": "Withdraw all",
+  "dialog.minted_coins.purse.withdraw_all.tooltip": "Every coin of the chosen kind.",
+  "chat.minted_coins.purse.deposited": "%s coins put away",
+  "chat.minted_coins.purse.not_held": "Hold the purse in your hand to withdraw coins.",
+  "chat.minted_coins.purse.rejected": "Only coins of %s go in this purse"
 }
