@@ -9,7 +9,7 @@ Companion resource pack for the [Minted Coins](https://modrinth.com/datapack/min
 - **Small coins** (small change) get their own holed coin, in 3D and in the inventory.
 - Plain nuggets, prismarine crystals and firework stars keep their vanilla look.
 - English and French translations for the coin names, the admin menus and every chat message of the data pack.
-- Coin icons in the menu titles and to the left of each slider of the *New mint* menu.
+- Coin icons in the menu titles and to the left of each slider of the *New mint* menu, and a line between the mint name and the coins.
 
 ### Adding a language
 

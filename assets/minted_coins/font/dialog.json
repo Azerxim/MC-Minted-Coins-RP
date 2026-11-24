@@ -37,6 +37,15 @@
       ]
     },
     {
+      "type": "bitmap",
+      "file": "minted_coins:font/separator.png",
+      "height": 12,
+      "ascent": 12,
+      "chars": [
+        "\ue010"
+      ]
+    },
+    {
       "type": "space",
       "advances": {
         "\uf801": -1,
