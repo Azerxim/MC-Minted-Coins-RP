@@ -1,0 +1,7 @@
+{
+  "parent": "minted_coins:item/small_coin_heap",
+  "textures": {
+    "0": "minted_coins:item/small_copper_coin_3d",
+    "particle": "minted_coins:item/small_copper_coin"
+  }
+}

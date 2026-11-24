@@ -1,0 +1,7 @@
+{
+  "parent": "minted_coins:item/coin_pile_small",
+  "textures": {
+    "0": "minted_coins:item/diamond_coin_3d",
+    "particle": "minted_coins:item/diamond_coin"
+  }
+}

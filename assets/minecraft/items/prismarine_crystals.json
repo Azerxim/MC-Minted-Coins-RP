@@ -7,20 +7,87 @@
       {
         "when": "minted_coins:diamond_coin",
         "model": {
-          "type": "minecraft:select",
-          "property": "minecraft:display_context",
-          "cases": [
+          "type": "minecraft:range_dispatch",
+          "property": "minecraft:count",
+          "normalize": false,
+          "entries": [
             {
-              "when": "gui",
+              "threshold": 9,
               "model": {
-                "type": "minecraft:model",
-                "model": "minted_coins:item/diamond_coin"
+                "type": "minecraft:select",
+                "property": "minecraft:display_context",
+                "cases": [
+                  {
+                    "when": "gui",
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "minted_coins:item/diamond_coin_pile_small_icon"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "minted_coins:item/diamond_coin_pile_small"
+                }
+              }
+            },
+            {
+              "threshold": 32,
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:display_context",
+                "cases": [
+                  {
+                    "when": "gui",
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "minted_coins:item/diamond_coin_pile_large_icon"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "minted_coins:item/diamond_coin_pile_large"
+                }
+              }
+            },
+            {
+              "threshold": 60,
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:display_context",
+                "cases": [
+                  {
+                    "when": "gui",
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "minted_coins:item/diamond_coin_heap_icon"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "minted_coins:item/diamond_coin_heap"
+                }
               }
             }
           ],
           "fallback": {
-            "type": "minecraft:model",
-            "model": "minted_coins:item/diamond_coin_3d"
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": "gui",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minted_coins:item/diamond_coin"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minted_coins:item/diamond_coin_3d"
+            }
           }
         }
       }

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minted_coins:item/gold_coin_heap"
+  }
+}
